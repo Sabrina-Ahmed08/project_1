@@ -1,0 +1,264 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+/*header start*/
+header{
+	padding: 10px;
+	background-color: #121B2A;
+}
+.wrapper{
+	overflow: hidden;
+	width: 80%;
+	/*border: 1px solid white;*/
+	margin: 0 auto;
+}
+.logo {
+	float: left;
+	width: 20%;
+	/*border: 1px solid white;*/
+}
+.logo img{
+	width: 100%;
+}
+.menu {
+	margin-top: 40px;
+	float: right;
+	width: 70%;
+	/*border: 1px solid white;*/
+}
+
+.menu ul{
+	float: right;
+}
+.menu ul li{
+	float: left;
+	list-style: none;
+}
+	
+.menu ul li a{
+	font-family: sans-serif;
+	font-size: 12px;
+	font-weight: 400;
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 0 20px;
+	display: inline-block;
+}
+.menu ul li a:hover{
+	color: #0A456F;
+}
+.menu ul li:last-child a{
+	padding-right: 0;
+}
+/*header end*/
+
+/*banner start*/
+.banner{
+	background-image: url(../images/banner.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	min-height: 450px;
+}
+.b_content{
+	margin-top: 200px;
+	margin-bottom: 70px; 
+	width: 50%;
+	/*border: 1px solid red;*/
+}
+.b_content h1{
+	margin: 0 0;
+	font-family: sans-serif;
+	font-size: 35px;
+	font-weight: 400;
+	color: white;
+	text-transform: capitalize;
+}
+.b_content h2{
+	margin: 0 0;
+	font-family: sans-serif;
+	font-size: 42px;
+	font-weight: 700;
+	color:#0076B6;
+	text-transform: capitalize;
+}
+.b_content p{
+	/*margin-top: 200px;
+	margin-bottom: 70px;*/
+	font-family: sans-serif;
+	font-size: 20px;
+	font-weight: 400;
+	color: white;
+	line-height: 30px;
+}
+.b_content button{
+	width: 200px;
+	height: 60px;
+	font-family: sans-serif;
+	font-size: 20px;
+	font-weight: 400;
+	color: #5B5B5B;
+	text-transform: uppercase;
+	background-color: white;
+	border: none;
+	cursor: pointer;
+	transition: .3s;
+}
+
+.b_content button:hover{
+	background-color: #0076B6;
+	color: white;
+	border: none;
+}
+
+
+/*banner end*/
+
+
+/*service start*/
+.service{
+	background-color: #121B2C;
+	padding-top: 50px;
+	padding-bottom: 10px;
+}
+.single{
+	width: 29.1%;
+	/*border: 1px solid red;*/
+	float: left;
+	padding: 50px 2%;
+}
+.single:last-child{
+	border-right: 0;
+}
+.top{
+	overflow: hidden;
+}
+.t_img{
+	margin-right: 12px;
+	width: 28%;
+	/*border: 1px solid white;*/
+	float: left;
+}
+.t_img img{
+	width: 100%;
+}
+.t_txt{
+	margin-top: 20px;
+	width: 60%;
+	/*border: 1px solid white;*/
+	float: left;
+}
+.t_txt h2{
+	margin: 0;
+	font-family: sans-serif;
+	font-size: 24px;
+	font-weight: 400;
+	color: white;
+}
+.t_txt h3{
+	margin: 0;
+	font-family: sans-serif; 
+	font-size: 27px;
+	font-weight: 400; 
+	color: #0078BD;
+}
+/*.t_txt h3:last-child{
+	font-size: 23px;*/
+}
+.bottom{}
+.bottom p{
+	margin: 0;
+	font-family: sans-serif; 
+	font-size: 16px;
+	font-weight: 400; 
+	color: white;
+	line-height: 25px;	
+}
+
+/*service end*/
+/*address start*/
+.address{
+	background-color: #040811;
+}
+
+	/*padding-top: 60px;
+	padding-bottom: 50px;
+}*/
+/*part start*/
+.part{
+	width:25%;
+	height: auto;
+	float: left;
+	padding: 50px 3%;
+}
+.part h3{
+	font-family: sans-serif;
+	font-size: 20px;
+	font-weight: 400;
+	color: white;
+	line-height: 25px;
+}
+.part h4{
+	margin-bottom: 10px;
+	font-family: sans-serif;
+	color: white;
+}
+.part p{
+	font-family: sans-serif;
+	font-size: 11px;
+	font-weight: 400;
+	color: white;
+	line-height: 15px;
+}
+.iphone{
+	float: left;
+}
+.bottom_iphone{
+	display: inline-block;
+	float: left;
+	width: 45%;
+}
+.bottom_iphone{
+	color: white;
+	text-transform: sans-serif;
+	padding-right: 15px;
+}
+/*part end*/
+/*footer start*/
+.footer{
+	padding: 10px;
+	background-color: #121B2C;
+}
+.footer_menu{
+	float: left;
+
+}
+.footer_menu ul{}
+.footer_menu ul li{
+	float: left;
+	list-style: none;
+}
+.footer_menu ul li a{
+	font-family: sans-serif;
+	font-size: 12px;
+	font-weight: 400;
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 0 10px;
+	display: inline;
+	border-left: 1px solid white;
+}
+
+.footer_logo{
+	float: right;
+	width: 40%;
+}
+.footer_logo img{
+	width: 100%
+}
+/*footer end*/
+
+/*address end*/
